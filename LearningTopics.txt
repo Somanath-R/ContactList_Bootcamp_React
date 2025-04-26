@@ -1,0 +1,11 @@
+i.   Create React app
+ii.  Components:
+        a.Fucntional 
+        b.Class
+iii. JSX
+iv.  Props & State
+v.   useState & useEffect
+vi.  Components Lifecycle methods
+vii. Conditional Rendering
+viii.List & keys
+ix.  basic form handling
