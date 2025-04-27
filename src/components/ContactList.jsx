@@ -17,14 +17,19 @@ function ContactList({ contacts, deleteContactHandler }) {
 
     return (
         <div className="main">
-            <h2>Contact List
+            
                 <Link to='/add'>
                     <button className='ui button blue right'>Add Contact</button>
                 </Link>
-            </h2>
+            
             <div className='ui celled list'>
+                <h2>Contact</h2>
+                <Link to='/add'>
+                    <button className='ui button blue right'>back</button>
+                </Link>
                 {renderContactList}
             </div>
+            
         </div>
     )
 }
